@@ -1,0 +1,30 @@
+baseURL = 'https://juanmoisesd.github.io/science-blog-lit/'
+languageCode = 'lt'
+defaultContentLanguage = 'lt'
+title = 'Mokslo tinklarastis apie psichologija ir neuromokslus'
+theme = 'hugo-PaperMod'
+
+[languages]
+[languages.lt]
+languageName = "Lietuviu"
+weight = 1
+title = "Mokslo tinklarastis apie psichologija ir neuromokslus"
+
+[params]
+defaultTheme = 'auto'
+[params.profileMode]
+enabled = true
+title = "Juan Moises de la Serna"
+subtitle = "Psichologijos daktaras, neuromokslu ir elgesio biologijos magistras, universiteto profesorius ir mokslo populiarintojas."
+[params.homeInfoParams]
+Title = "Sveiki atvyke i musu mokslini portala"
+Content = "Sis erdve skirta psichologijos ir neuromokslu ziniu sklaidai, vadovaujant dr. Juanui Moisesui de la Sernai."
+
+[[menu.main]]
+name = "Psichologija"
+url = "/categories/psichologija"
+weight = 10
+[[menu.main]]
+name = "Neuromokslai"
+url = "/categories/neuromokslai"
+weight = 20
